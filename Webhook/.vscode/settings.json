@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        "**/.classpath": false,
+        "**/.project": false,
+        "**/.settings": false,
+        "**/.factorypath": false
+    },
+    "explorerExclude.backup": {},
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5434,
+            "driver": "PostgreSQL",
+            "username": "melkey",
+            "password": "password1234",
+            "database": "blueprint",
+            "name": "postgresql",
+            "group": "go"
+        }
+    ]
+}

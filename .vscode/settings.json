@@ -1,0 +1,56 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pg",
+            "group": "testingfo",
+            "database": "blueprint",
+            "username": "melkey",
+            "password": "password1234"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33062,
+            "driver": "MySQL",
+            "name": "localdocker",
+            "group": "local",
+            "username": "root",
+            "password": "strong_password",
+            "database": "yourdb"
+        }
+    ],
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        "**/.classpath": false,
+        "**/.project": false,
+        "**/.settings": false,
+        "**/.factorypath": false
+    },
+    "explorerExclude.backup": {},
+    "redisXplorer.config": {
+        "profiles": [
+            {
+                "name": "localhost",
+                "host": "localhost",
+                "accessKey": "eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81",
+                "filter": "*",
+                "port": "6379"
+            }
+        ],
+        "scanLimit": 200
+    },
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}
